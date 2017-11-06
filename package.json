@@ -1,26 +1,21 @@
 {
-  "name": "Joseph-Mulick-Portfolio-Next-JS",
+  "name": "hello-next",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS.git"
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "next export"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS/issues"
-  },
-  "homepage": "https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS#readme",
   "dependencies": {
-    "next": "^4.0.3",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "express": "^4.15.2",
+    "next": "^3.2.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   }
 }
