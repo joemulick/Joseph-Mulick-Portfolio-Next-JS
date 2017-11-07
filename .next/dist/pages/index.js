@@ -21,5 +21,5 @@ var _reactstrap = require('reactstrap');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
-  return _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement('h1', null, 'My Blog'), _react2.default.createElement('h1', null, 'Test from index.js'), _react2.default.createElement(_reactstrap.Alert, { color: 'primary' }, 'This is a primary alert \u2014 check it out!'));
+  return _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement('h1', null, 'My Blog'), _react2.default.createElement('h1', null, 'Test from index.js'), _react2.default.createElement(_reactstrap.Button, { color: 'primary' }, 'primary'), ' ');
 };
