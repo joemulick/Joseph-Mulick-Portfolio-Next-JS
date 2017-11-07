@@ -13,9 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta",
     "express": "^4.15.2",
     "next": "^3.2.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "reactstrap": "^5.0.0-alpha.3"
   }
 }

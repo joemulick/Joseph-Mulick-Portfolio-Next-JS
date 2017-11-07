@@ -16,12 +16,10 @@ var _link = require('next\\dist\\lib\\link.js');
 
 var _link2 = _interopRequireDefault(_link);
 
+var _reactstrap = require('reactstrap');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PostLink = function PostLink(props) {
-  return _react2.default.createElement('li', null, _react2.default.createElement(_link2.default, { as: '/p/' + props.id, href: '/post?title=' + props.title }, _react2.default.createElement('a', null, props.title)));
-};
-
 exports.default = function () {
-  return _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement('h1', null, 'My Blog'), _react2.default.createElement('ul', null, _react2.default.createElement(PostLink, { id: 'hello-nextjs', title: 'Hello Next.js' }), _react2.default.createElement(PostLink, { id: 'learn-nextjs', title: 'Learn Next.js is awesome' }), _react2.default.createElement(PostLink, { id: 'deploy-nextjs', title: 'Deploy apps with Zeit' })));
+  return _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement('h1', null, 'My Blog'), _react2.default.createElement('h1', null, 'Test from index.js'), _react2.default.createElement(_reactstrap.Alert, { color: 'primary' }, 'This is a primary alert \u2014 check it out!'));
 };
