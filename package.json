@@ -15,9 +15,9 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "express": "^4.15.2",
-    "next": "^3.2.2",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "reactstrap": "^5.0.0-alpha.3"
   }
 }
