@@ -41,5 +41,19 @@ export default () => (
         <h2><span>Back To Top</span></h2>
       </div>
 
+      <style jsx>{`
+                  h2 {
+                    width: 100%; 
+                    text-align: center; 
+                    border-bottom: 1px solid #000; 
+                    line-height: 0.1em;
+                    margin: 10px 0 20px; 
+                  }
+                  h2 span {
+                    background:#fff; 
+                    padding:0 10px; 
+                  }            
+      `}</style>
+
   </Layout>
 )
