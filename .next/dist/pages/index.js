@@ -45,38 +45,40 @@ var _ContactMe2 = _interopRequireDefault(_ContactMe);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
-  return _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement(_IntroTop2.default, null), _react2.default.createElement('div', {
-    className: 'jsx-2284205711'
+  return _react2.default.createElement('div', {
+    className: 'jsx-3513424697'
+  }, _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement(_IntroTop2.default, null), _react2.default.createElement('div', {
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('span', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, 'About Me'))), _react2.default.createElement(_AboutMe2.default, null), _react2.default.createElement('div', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('span', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, 'My Skillset'))), _react2.default.createElement(_MySkillset2.default, null), _react2.default.createElement('div', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('span', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, 'My Projects'))), _react2.default.createElement(_MyProjects2.default, null), _react2.default.createElement('div', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('span', {
-    className: 'jsx-2284205711'
-  }, 'Contact Me'))), _react2.default.createElement(_ContactMe2.default, null), _react2.default.createElement('div', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
+  }, 'Contact Me'))), _react2.default.createElement(_ContactMe2.default, null)), _react2.default.createElement('div', {
+    className: 'jsx-3513424697' + ' ' + 'back-to-top-container'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, _react2.default.createElement('span', {
-    className: 'jsx-2284205711'
+    className: 'jsx-3513424697'
   }, 'Back To Top'))), _react2.default.createElement(_style2.default, {
-    styleId: '2284205711',
-    css: ['h2.jsx-2284205711{width:100%;text-align:center;border-bottom:1px solid #000;line-height:0.1em;margin:10px 0 20px;}', 'h2.jsx-2284205711 span.jsx-2284205711{background:#fff;padding:0 10px;}']
+    styleId: '3513424697',
+    css: ['h2.jsx-3513424697{width:100%;text-align:center;border-bottom:1px solid #000;line-height:0.1em;margin:10px 0 20px;}', 'h2.jsx-3513424697 span.jsx-3513424697{background:#fff;padding:0 10px;}', '.back-to-top-container.jsx-3513424697{max-width:96%;margin:auto;}']
   }));
 };

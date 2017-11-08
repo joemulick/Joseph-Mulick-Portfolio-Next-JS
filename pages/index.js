@@ -9,6 +9,8 @@ import ContactMe from '../components/indexComponents/ContactMe.js'
 
 
 export default () => (
+  <div>
+
   <Layout>
     
     <IntroTop />
@@ -37,7 +39,9 @@ export default () => (
 
     <ContactMe />
 
-      <div>
+  </Layout>
+
+      <div className="back-to-top-container">
         <h2><span>Back To Top</span></h2>
       </div>
 
@@ -52,8 +56,12 @@ export default () => (
                   h2 span {
                     background:#fff; 
                     padding:0 10px; 
-                  }            
+                  }
+                 .back-to-top-container {
+                  max-width: 96%;
+                  margin: auto;
+                 }             
       `}</style>
 
-  </Layout>
+  </div>
 )

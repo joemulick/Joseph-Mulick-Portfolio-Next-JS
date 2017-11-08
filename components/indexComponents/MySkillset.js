@@ -1,4 +1,5 @@
-import { Row, Col  } from 'reactstrap'
+import { Row, Col, Card, CardBody } from 'reactstrap'
+import HTML from './svgIcons/HTML.js'
 
 const MySkillset = (props) => (
 
@@ -6,9 +7,9 @@ const MySkillset = (props) => (
 <Row>
 
 	<Col>
-		<div>
-			<p>This is my skillset test</p>
-	    </div>
+
+		<HTML />
+
     </Col>
 
 </Row>
@@ -16,3 +17,6 @@ const MySkillset = (props) => (
 )
 
 export default MySkillset
+
+
+
