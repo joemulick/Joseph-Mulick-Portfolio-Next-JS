@@ -1,13 +1,13 @@
 import { Row, Col  } from 'reactstrap'
 
-const MyProjects = (props) => (
+const MySkillset = (props) => (
 
 
 <Row>
 
 	<Col>
 		<div>
-			<p>This is my projects test</p>
+			<p>This is my skillset test</p>
 	    </div>
     </Col>
 
@@ -15,4 +15,4 @@ const MyProjects = (props) => (
 
 )
 
-export default MyProjects
+export default MySkillset
