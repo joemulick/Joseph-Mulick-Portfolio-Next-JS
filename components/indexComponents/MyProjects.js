@@ -85,7 +85,9 @@ const MyProjects = (props) => (
 		<Col>
 			<div>
 				<h3>This website</h3>
-
+				<div>
+					
+				</div>
 		    </div>
 	    </Col>
 	</Row>
@@ -97,7 +99,6 @@ const MyProjects = (props) => (
 					}
                    	 
                 `}</style>
-					}
 </div>
 
 )
