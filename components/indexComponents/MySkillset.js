@@ -15,33 +15,63 @@ import AWS from './svgIcons/AWS.js'
 
 const MySkillset = (props) => (
 
-
-<Row>
-	<Col>
-		<div>
+<div>
+	<Row>
+		<Col>
 			<HTML />
+		</Col>
+
+		<Col>
 			<CSS />
+		</Col>
+
+		<Col>
 			<JAVASCRIPT />
+		</Col>
+
+		<Col>
 			<JQUERY />
+		</Col>
+
+		<Col>
 			<BOOTSTRAP />
+		</Col>
+
+		<Col>
 			<GIT />
-		</div>
-	</Col>
-	<Col>
-		<div>
+		</Col>
+	</Row>
+	<Row>
+		<Col>
 			<NODE />
+		</Col>
+
+		<Col>
 			<MYSQL />
+		</Col>
+
+		<Col>
 			<MONGODB />
+		</Col>
+
+		<Col>
 			<EXPRESS />
+		</Col>
+
+		<Col>
 			<REACT />
+		</Col>
+
+		<Col>
 			<AWS />
-		</div>
-    </Col>
-     <style jsx>{`
+		</Col>	
 
-                `}</style>
-</Row>
+	     <style jsx>{`
 
+	                `}</style>
+	                
+	</Row>
+</div>
 )
 
 export default MySkillset

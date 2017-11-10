@@ -10,7 +10,7 @@ const layoutStyle = {
 const Layout = (props) => (
 <div>
     <Head>
-      <title>Joseph Mulick Portolio & Blog || Next.js / React.js </title>
+      <title>Joseph Mulick Portolio & Blog || React.js / Next.js </title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
     </Head>
