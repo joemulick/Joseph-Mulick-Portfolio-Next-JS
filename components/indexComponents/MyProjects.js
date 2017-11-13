@@ -5,7 +5,7 @@ const MyProjects = (props) => (
 <div>
 	<Row>
 		<Col>
-			<div>
+			<div className="text-center project-container">
 				<h3>Saint Paschal Baylon Church - New Website (In Development)</h3>
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035230/SaintPaschalDevelopment_q2ng40.png" />
 					<div>
@@ -42,7 +42,7 @@ const MyProjects = (props) => (
 
 	<Row>
 		<Col>
-			<div>
+			<div className="text-center project-container">
 				<h3>Troll Patrul</h3>
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293169/TrollPatrul_lpnv0f.png" />
 				    <div>
@@ -56,7 +56,7 @@ const MyProjects = (props) => (
 
 	<Row>
 		<Col>
-			<div>
+			<div className="text-center project-container">
 				<h3>Politihub</h3>
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/Politihub_gu1dvi.png" />
 				 <div>
@@ -69,8 +69,8 @@ const MyProjects = (props) => (
 
 	<Row>
 		<Col>
-			<div>
-				<h3>Reel Films</h3>
+			<div className="project-container">
+				<h3 class="text-center">Reel Films</h3>
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png" />
 				<div class="caption text-center">
                     <p>Reel films is a web application that shows movie trailers based on the a users pre-selected criteria. We sort the movie trailers by genre, rating, year released and much more to tailor a custom trailer watching experience to the end user. We utilized HMTL, CSS, Javascript, jQuery, Ajax API requests. We utilized 3 separate API’s including Youtube’s API, OMBD and The Movie DB. Click on the thumbnail to see the project which is hosted on github pages.</p>
@@ -97,8 +97,13 @@ const MyProjects = (props) => (
 						width:100%;
 						height:auto;
 					}
+					.project-container{
+						margin: 15px 0 15px 0;
+						border-bottom: 0.5px solid;
+					}
                    	 
                 `}</style>
+					}
 </div>
 
 )

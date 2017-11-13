@@ -6,17 +6,17 @@ const ContactMe = (props) => (
 <Row>
 
 	<Col>
-		<div>
+		<div className="text-center">
 			<img className="contact-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/blk-email_rdpr8q.png" />
 	    </div>
     </Col>
 	<Col>
-		<div>
+		<div className="text-center">
 			<img className="contact-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/blk-linkedin_tqrwjt.png" />
 	    </div>
     </Col>
 	<Col>
-		<div>
+		<div className="text-center">
 			<img className="contact-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/blk-github-non_uv4dzi.png" />
 	    </div>
     </Col>
