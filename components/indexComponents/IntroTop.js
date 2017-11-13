@@ -26,18 +26,18 @@ const IntroTop = (props) => (
     </Col>
   </Row>
 
-  <Row>
+  <div className="img-row-container">
+    <Row>
+      <Col>
+        <img className="mern-stack" height="130px" width="auto" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035229/mern_n2shda.png" alt="photo-of-mern-stack" />
+      </Col>
 
-    <Col>
-      <img className="mern-stack" height="130px" width="auto" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035229/mern_n2shda.png" alt="photo-of-mern-stack" />
-    </Col>
-
-    <Col>
-      <img className="los-angeles" height="130px" width="auto" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="photo-of-los-angeles" />
-    </Col>
-
-  </Row>
-                        <style jsx>{`
+      <Col>
+        <img className="los-angeles" height="130px" width="auto" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="photo-of-los-angeles" />
+      </Col>
+    </Row>
+  </div>
+                    <style jsx>{`
 
                       .nameLine {
                         text-align: center;
@@ -61,8 +61,9 @@ const IntroTop = (props) => (
                         display: flex;
                         margin: auto;
                       }
-
-                      
+                      .img-row-container{
+                        margin: 100px 0;
+                      }                     
                   `}</style>
 </div>
 )

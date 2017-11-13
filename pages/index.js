@@ -13,31 +13,41 @@ export default () => (
 
   <Layout>
     
-    <IntroTop />
+    <div className="top-section-container">
+      <IntroTop />
+    </div>
 
       <div>
         <h2><span>About Me</span></h2>
       </div>
 
+    <div className="section-container">
     <AboutMe />
+    </div>
 
       <div>
         <h2><span>My Skillset</span></h2>
       </div>
 
+    <div className="section-container">
     <MySkillset />
+    </div>
 
       <div>
         <h2><span>My Projects</span></h2>
       </div>
 
+    <div className="section-container">
     <MyProjects />
+    </div>
 
       <div>
         <h2><span>Contact Me</span></h2>
       </div>
 
+    <div className="section-container">
     <ContactMe />
+    </div>
 
   </Layout>
 
@@ -60,7 +70,13 @@ export default () => (
                  .back-to-top-container {
                   max-width: 96%;
                   margin: auto;
-                 }             
+                 }
+                 .section-container{
+                  margin: 100px 0;
+                 }
+                 .top-section-container{
+                  margin: 25px 0 0 0;
+                 }         
       `}</style>
 
   </div>
