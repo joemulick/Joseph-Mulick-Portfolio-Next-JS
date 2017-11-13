@@ -2,7 +2,7 @@ import { Row, Col } from 'reactstrap'
 
 const IntroTop = (props) => (
 <div>
- <Row>
+ <Row className="top-row">
     <Col>
 
       <div className="intro-top-outer-container">
@@ -61,6 +61,7 @@ const IntroTop = (props) => (
                         display: flex;
                         margin: auto;
                       }
+
                       
                   `}</style>
 </div>
