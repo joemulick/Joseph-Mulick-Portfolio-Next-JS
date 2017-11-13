@@ -19,6 +19,8 @@ const IntroTop = (props) => (
             <img className="me-photo" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" />
           </div>
 
+
+
         </div> 
 
       </div>
