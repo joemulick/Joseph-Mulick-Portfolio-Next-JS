@@ -47,7 +47,7 @@ const MyProjects = (props) => (
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293169/TrollPatrul_lpnv0f.png" />
 				    <div>
                         <p> Troll Patrul is a website dedicated to the Troll Patrul online community. It has a secured user authentication system that uses BCrypt and is a full stack web application that uses Node.js / Express and Handlebars as the viewengine. The web application was built 100% by me and is hosted at Heroku. The web app can be accessed at the link below the link below. </p> 
-                        <p><a href="https://thawing-shelf-21665.herokuapp.com/" target="_blank" class="btn btn-primary" role="button">Link to hosted Website</a></p>
+                        <p><a href="https://thawing-shelf-21665.herokuapp.com/" target="_blank" class="btn btn-primary" role="button">Link to Hosted Website</a></p>
                         <p><a href="https://github.com/joemulick/TrollPatrol" target="_blank" class="btn btn-primary" role="button">Link to Github Repository</a></p>
                     </div>
 		    </div>
@@ -61,7 +61,7 @@ const MyProjects = (props) => (
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/Politihub_gu1dvi.png" />
 				 <div>
                     <p> Politihub is a user authenticated React driven full stack web application that allows the user to see all the latest bills that are to be voted on on various levels of government. It allows users to browse between Local, State, House and Senate bills.. It also alows the user to filter their selection by a number of unique parameters. This web application uses React, handlebars, pulls from two separate api’s and has unique user authentication. Project not currently hosted but the source code can be accessed via the link. Directions to set up and run Politihub in your local browser can be found in the github readme file.</p>
-                    <p><a href="https://github.com/ElmasSayed/PolitiHub" target="_blank" class="btn btn-primary" role="button">Link to Github repository</a></p>
+                    <p><a href="https://github.com/ElmasSayed/PolitiHub" target="_blank" class="btn btn-primary" role="button">Link to Github Repository</a></p>
                  </div>
 		    </div>
 	    </Col>
@@ -74,21 +74,20 @@ const MyProjects = (props) => (
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png" />
 				<div class="caption text-center">
                     <p>Reel films is a web application that shows movie trailers based on the a users pre-selected criteria. We sort the movie trailers by genre, rating, year released and much more to tailor a custom trailer watching experience to the end user. We utilized HMTL, CSS, Javascript, jQuery, Ajax API requests. We utilized 3 separate API’s including Youtube’s API, OMBD and The Movie DB. Click on the thumbnail to see the project which is hosted on github pages.</p>
-                    <p><a href="https://joemulick.github.io/Reel-Films/" target="_blank" class="btn btn-primary" role="button">Link to hosted webpage</a> </p>
-                    <p><a href="https://github.com/joemulick/Reel-Films" target="_blank" class="btn btn-primary" role="button">Link to Github repository</a></p>
+                    <p><a href="https://joemulick.github.io/Reel-Films/" target="_blank" class="btn btn-primary" role="button">Link to Hosted Webpage</a> </p>
+                    <p><a href="https://github.com/joemulick/Reel-Films" target="_blank" class="btn btn-primary" role="button">Link to Github Repository</a></p>
                 </div>
 		    </div>
 	    </Col>
 	</Row>
 
 	<Row>
-		<Col>
-			<div>
-				<h3>This website</h3>
-				<div>
-					
-				</div>
-		    </div>
+		<Col>	<div class="caption text-center">
+				<h3 class="text-center">This Portfolio Website</h3>			
+					<img src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
+                    <p>This portfolio website was built with the efficient <a href="https://github.com/zeit/next.js/" target="_blank">Next.js framework</a>. Next.js is a framework for server rendered or statically exported react applications.</p>
+                    <p><a href="https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS" target="_blank" class="btn btn-primary" role="button">Link to Next.js Repository</a> </p>
+                </div>
 	    </Col>
 	</Row>
 	            <style jsx>{`
@@ -101,9 +100,13 @@ const MyProjects = (props) => (
 						margin: 15px 0 15px 0;
 						border-bottom: 0.5px solid;
 					}
-                   	 
-                `}</style>
+					.port-proj-container{
+						margin: auto;
 					}
+
+
+                `}</style>
+					
 </div>
 
 )
