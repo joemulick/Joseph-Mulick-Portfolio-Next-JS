@@ -30,12 +30,12 @@ const IntroTop = (props) => (
 
   <div className="img-row-container">
     <Row>
-      <Col>
-        <img className="mern-stack" height="130px" width="auto" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035229/mern_n2shda.png" alt="photo-of-mern-stack" />
+      <Col xs="12" sm="12" md="12" lg="6">
+        <img className="mern-stack" height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035229/mern_n2shda.png" alt="photo-of-mern-stack" />
       </Col>
 
-      <Col>
-        <img className="los-angeles" height="130px" width="auto" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="photo-of-los-angeles" />
+      <Col xs="12" sm="12" md="12" lg="6">
+        <img className="los-angeles" height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="photo-of-los-angeles" />
       </Col>
     </Row>
   </div>
@@ -66,15 +66,6 @@ const IntroTop = (props) => (
                       .img-row-container{
                         margin: 100px 0;
                       }
-
-                    @media (max-width: 1200px) { 
-                      
-                      .img-row-container{
-                        margin: auto;
-                        background-color: red;
-                      }
-
-                    }
 
 
                   `}</style>
