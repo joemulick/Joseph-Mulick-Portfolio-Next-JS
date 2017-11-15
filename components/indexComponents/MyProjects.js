@@ -84,7 +84,7 @@ const MyProjects = (props) => (
 	<Row>
 		<Col>	<div class="caption text-center">
 				<h3 class="text-center">This Portfolio Website</h3>			
-					<img src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
+					<img className="cropped-img-portfolio" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
                     <p>This portfolio website was built with the efficient <a href="https://github.com/zeit/next.js/" target="_blank">Next.js framework</a>. Next.js is a framework for server rendered or statically exported react applications.</p>
                     <p><a href="https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS" target="_blank" class="btn btn-primary" role="button">Link to Next.js Repository</a> </p>
                 </div>
@@ -102,6 +102,9 @@ const MyProjects = (props) => (
 					}
 					.port-proj-container{
 						margin: auto;
+					}
+					.cropped-img-portfolio{
+						max-width: 100%;
 					}
 
 
