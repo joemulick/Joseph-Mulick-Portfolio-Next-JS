@@ -65,7 +65,18 @@ const IntroTop = (props) => (
                       }
                       .img-row-container{
                         margin: 100px 0;
-                      }                     
+                      }
+
+                    @media (max-width: 1200px) { 
+                      
+                      .img-row-container{
+                        margin: auto;
+                        background-color: red;
+                      }
+
+                    }
+
+
                   `}</style>
 </div>
 )

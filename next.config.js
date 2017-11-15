@@ -8,7 +8,8 @@ module.exports = {
   exportPathMap: function () {
     return {
       '/': { page: '/' },
-      '/about': { page: '/about' },
+      '/blog': { page: '/blog' },
+      '/p/deploy-nextjs': { page: '/blog', query: { title: 'deploy-nextjs' } }
     }
   }
 }
