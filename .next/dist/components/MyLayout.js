@@ -59,7 +59,7 @@ var Layout = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', null, _react2.default.createElement(_head2.default, null, _react2.default.createElement('title', null, 'Joseph Mulick Portolio & Blog || React.js / Next.js '), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width' }), _react2.default.createElement('link', { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' })), _react2.default.createElement(_reactstrap.Container, null, this.props.children));
+      return _react2.default.createElement('div', null, _react2.default.createElement(_head2.default, null, _react2.default.createElement('title', null, 'Joseph Mulick Portolio & Blog || React.js / Next.js '), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width' }), _react2.default.createElement('link', { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' }), _react2.default.createElement('meta', { name: 'google-site-verification', content: 'f_tg1hS9okaYh61Se_ln5zu_MKJDI_EnmLR72icNWIU' })), _react2.default.createElement(_reactstrap.Container, null, this.props.children));
     }
   }]);
 
