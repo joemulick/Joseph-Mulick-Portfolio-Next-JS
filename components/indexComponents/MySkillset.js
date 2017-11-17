@@ -15,7 +15,7 @@ import AWS from './svgIcons/AWS.js'
 
 const MySkillset = (props) => (
 
-<div>
+<div class="text-center">
 	<Row>
 		<Col>
 			<HTML />

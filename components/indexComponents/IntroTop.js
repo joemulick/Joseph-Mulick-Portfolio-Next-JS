@@ -2,17 +2,17 @@ import { Row, Col } from 'reactstrap'
 
 const IntroTop = (props) => (
 <div>
- <Row className="top-row">
+ <Row>
     <Col>
 
       <div className="intro-top-outer-container">
 
         <div className="intro-textandphoto-container">
 
-          <div className="text-div-container">
+          <div className="text-div-container text-center">
             <h1 className="nameLine">My name is Joe Mulick</h1>
-            <h2 className="nameLine">Full Stack Javascript Web Developer</h2> 
-            <h2 className="nameLine">Los Angeles California</h2>
+            <h2 className="nameLine-desc text-center">Full Stack Javascript Web Developer</h2> 
+            <h2 className="nameLine-location text-center">Los Angeles California</h2>
           </div>
 
           <div className="me-photo-div">
@@ -65,6 +65,15 @@ const IntroTop = (props) => (
                       }
                       .img-row-container{
                         margin: 100px 0;
+                      }
+
+                      @media screen (max-width: 550px) {
+                        nameLine-location {
+                          font-size: 0.5em !important;
+                        }
+                        nameLine-desc{
+                          font-size: 0.5em!important;
+                        }
                       }
 
 
