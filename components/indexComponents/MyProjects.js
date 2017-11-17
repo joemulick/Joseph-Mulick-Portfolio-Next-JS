@@ -4,6 +4,16 @@ const MyProjects = (props) => (
 
 <div>
 	<Row>
+		<Col>	
+			<div className="text-center project-container">
+				<h3 class="text-center">This Portfolio Website</h3>			
+					<img className="cropped-img-portfolio" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
+                    <p>This portfolio website was built with the efficient <a href="https://github.com/zeit/next.js/" target="_blank">Next.js framework</a>. Next.js is a framework for server rendered or statically exported react applications.</p>
+                    <p><a href="https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS" target="_blank" class="btn btn-primary" role="button">Link to the Github Repository</a></p>
+            </div>
+	    </Col>
+	</Row>
+	<Row>
 		<Col>
 			<div className="text-center project-container">
 				<h3>Saint Paschal Baylon Church - New Website (In Development)</h3>
@@ -69,7 +79,7 @@ const MyProjects = (props) => (
 
 	<Row>
 		<Col>
-			<div className="project-container">
+			<div class="text-center">
 				<h3 class="text-center">Reel Films</h3>
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png" />
 				<div class="caption text-center">
@@ -78,16 +88,6 @@ const MyProjects = (props) => (
                     <p><a href="https://github.com/joemulick/Reel-Films" target="_blank" class="btn btn-primary" role="button">Link to Github Repository</a></p>
                 </div>
 		    </div>
-	    </Col>
-	</Row>
-
-	<Row>
-		<Col>	<div class="caption text-center">
-				<h3 class="text-center">This Portfolio Website</h3>			
-					<img className="cropped-img-portfolio" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
-                    <p>This portfolio website was built with the efficient <a href="https://github.com/zeit/next.js/" target="_blank">Next.js framework</a>. Next.js is a framework for server rendered or statically exported react applications.</p>
-                    <p><a href="https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS" target="_blank" class="btn btn-primary" role="button">Link to the Github Repository</a></p>
-                </div>
 	    </Col>
 	</Row>
 	            <style jsx>{`

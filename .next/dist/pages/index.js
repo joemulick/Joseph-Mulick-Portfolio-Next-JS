@@ -46,49 +46,49 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = function () {
   return _react2.default.createElement('div', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement('div', {
-    className: 'jsx-1102014346' + ' ' + 'top-section-container'
+    className: 'jsx-1650119783' + ' ' + 'top-section-container'
   }, _react2.default.createElement(_IntroTop2.default, null)), _react2.default.createElement('div', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('span', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, 'About Me'))), _react2.default.createElement('div', {
-    className: 'jsx-1102014346' + ' ' + 'section-container'
+    className: 'jsx-1650119783' + ' ' + 'section-container'
   }, _react2.default.createElement(_AboutMe2.default, null)), _react2.default.createElement('div', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('span', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, 'My Skillset'))), _react2.default.createElement('div', {
-    className: 'jsx-1102014346' + ' ' + 'section-container'
+    className: 'jsx-1650119783' + ' ' + 'section-container'
   }, _react2.default.createElement(_MySkillset2.default, null)), _react2.default.createElement('div', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('span', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, 'My Projects'))), _react2.default.createElement('div', {
-    className: 'jsx-1102014346' + ' ' + 'section-container'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement(_MyProjects2.default, null)), _react2.default.createElement('div', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('span', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, 'Contact Me'))), _react2.default.createElement('div', {
-    className: 'jsx-1102014346' + ' ' + 'section-container'
+    className: 'jsx-1650119783' + ' ' + 'section-container'
   }, _react2.default.createElement(_ContactMe2.default, null))), _react2.default.createElement('div', {
-    className: 'jsx-1102014346' + ' ' + 'back-to-top-container'
+    className: 'jsx-1650119783' + ' ' + 'back-to-top-container'
   }, _react2.default.createElement('h2', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, _react2.default.createElement('span', {
-    className: 'jsx-1102014346'
+    className: 'jsx-1650119783'
   }, 'Back To Top'))), _react2.default.createElement(_style2.default, {
-    styleId: '1102014346',
-    css: ['h2.jsx-1102014346{width:100%;text-align:center;border-bottom:1px solid #000;line-height:0.1em;margin:10px 0 20px;}', 'h2.jsx-1102014346 span.jsx-1102014346{background:#fff;padding:0 10px;}', '.back-to-top-container.jsx-1102014346{max-width:96%;margin:auto;}', '.section-container.jsx-1102014346{margin:100px 0;}', '.top-section-container.jsx-1102014346{margin:25px 0 0 0;}']
+    styleId: '1650119783',
+    css: ['h2.jsx-1650119783{width:100%;text-align:center;border-bottom:1px solid #000;line-height:0.1em;margin:10px 0 20px;}', 'h2.jsx-1650119783 span.jsx-1650119783{background:#fff;padding:0 10px;}', '.back-to-top-container.jsx-1650119783{max-width:96%;margin:auto;}', '.section-container.jsx-1650119783{margin:100px 0;}', '.top-section-container.jsx-1650119783{margin:25px 0 0 0;}', '.skillset-container.jsx-1650119783{margin-top:35px;}']
   }));
 };

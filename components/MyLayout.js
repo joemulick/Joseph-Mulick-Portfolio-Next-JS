@@ -14,7 +14,7 @@ export default class Layout extends React.Component {
     return (
         <div>
           <Head>
-            <title>Joseph Mulick Portolio & Blog || React.js / Next.js </title>
+            <title>Joe Mulick Portolio & Blog || React.js / Next.js </title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
             <meta name="google-site-verification" content="f_tg1hS9okaYh61Se_ln5zu_MKJDI_EnmLR72icNWIU" />

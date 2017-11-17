@@ -37,7 +37,7 @@ export default () => (
         <h2><span>My Projects</span></h2>
       </div>
 
-    <div className="section-container">
+    <div>
     <MyProjects />
     </div>
 
@@ -76,6 +76,9 @@ export default () => (
                  }
                  .top-section-container{
                   margin: 25px 0 0 0;
+                 }
+                 .skillset-container{
+                  margin-top: 35px;
                  }         
       `}</style>
 
