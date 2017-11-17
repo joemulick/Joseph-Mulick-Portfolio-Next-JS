@@ -29,7 +29,7 @@ export default () => (
         <h2><span>My Skillset</span></h2>
       </div>
 
-    <div className="section-container">
+    <div className="section-container text-center">
     <MySkillset />
     </div>
 

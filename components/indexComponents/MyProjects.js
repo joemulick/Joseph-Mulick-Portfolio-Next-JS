@@ -5,7 +5,7 @@ const MyProjects = (props) => (
 <div>
 	<Row>
 		<Col>	
-			<div className="text-center project-container">
+			<div className="text-center project-container top-proj-container">
 				<h3 class="text-center">This Portfolio Website</h3>			
 					<img className="cropped-img-portfolio" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
                     <p>This portfolio website was built with the efficient <a href="https://github.com/zeit/next.js/" target="_blank">Next.js framework</a>. Next.js is a framework for server rendered or statically exported react applications.</p>
@@ -79,7 +79,7 @@ const MyProjects = (props) => (
 
 	<Row>
 		<Col>
-			<div class="text-center">
+			<div class="text-center bottom-proj-container">
 				<h3 class="text-center">Reel Films</h3>
 				<img className="proj-img" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png" />
 				<div class="caption text-center">
@@ -105,6 +105,12 @@ const MyProjects = (props) => (
 					}
 					.cropped-img-portfolio{
 						max-width: 100%;
+					}
+					.top-proj-container{
+						margin: 25px 0px 15px 0px;
+					}
+					.bottom-proj-container{
+						margin: 15px 0px 25px 0px;
 					}
 
 

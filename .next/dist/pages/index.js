@@ -64,7 +64,7 @@ exports.default = function () {
   }, _react2.default.createElement('span', {
     className: 'jsx-1650119783'
   }, 'My Skillset'))), _react2.default.createElement('div', {
-    className: 'jsx-1650119783' + ' ' + 'section-container'
+    className: 'jsx-1650119783' + ' ' + 'section-container text-center'
   }, _react2.default.createElement(_MySkillset2.default, null)), _react2.default.createElement('div', {
     className: 'jsx-1650119783'
   }, _react2.default.createElement('h2', {
