@@ -2,11 +2,6 @@ TO EXPORT AND RUN IN DEVELOPMENT
 
 npm run build  
 
-npm run export  
+npm start
 
-cd out  
-
-serve -p 8080  
-
-
-https://learnnextjs.com/excel/static-html-export/no-need-to-build-always
+https://learnnextjs.com
