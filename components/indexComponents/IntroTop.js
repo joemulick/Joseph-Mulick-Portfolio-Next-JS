@@ -3,20 +3,30 @@ import { Row, Col } from 'reactstrap'
 const IntroTop = (props) => (
 <div>
  <Row>
-      <Col xs="12" sm="12" md="12" lg="6">
+    <Col>
+
+      <div className="intro-top-outer-container">
+
+        <div className="intro-textandphoto-container">
+
           <div className="text-div-container text-center">
             <h1 className="nameLine">My name is Joe Mulick</h1>
             <h2 className="nameLine-desc text-center">Full Stack Javascript Web Developer</h2> 
             <h2 className="nameLine-location text-center">Los Angeles California</h2>
           </div>
-      </Col>
-      <Col xs="12" sm="12" md="12" lg="6">
+
           <div className="me-photo-div">
             <img className="me-photo" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" />
           </div>
-      </Col>
 
-</Row>
+
+
+        </div> 
+
+      </div>
+
+    </Col>
+  </Row>
 
   <div className="img-row-container">
     <Row>
@@ -30,7 +40,6 @@ const IntroTop = (props) => (
     </Row>
   </div>
                     <style jsx>{`
-
                       .nameLine {
                         text-align: center;
                       }
@@ -43,7 +52,6 @@ const IntroTop = (props) => (
                       .text-div-container{
                         display: inline-block;
                         flex: 0 0 65%;
-
                       }
                       .me-photo-div{
                         display: inline-block;
@@ -56,7 +64,6 @@ const IntroTop = (props) => (
                       .img-row-container{
                         margin: 100px 0;
                       }
-
                       @media screen (max-width: 550px) {
                         nameLine-location {
                           font-size: 0.5em !important;
@@ -65,8 +72,6 @@ const IntroTop = (props) => (
                           font-size: 0.5em!important;
                         }
                       }
-
-
                   `}</style>
 </div>
 )
