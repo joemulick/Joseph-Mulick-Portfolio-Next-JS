@@ -3,30 +3,20 @@ import { Row, Col } from 'reactstrap'
 const IntroTop = (props) => (
 <div>
  <Row>
-    <Col>
-
-      <div className="intro-top-outer-container">
-
-        <div className="intro-textandphoto-container">
-
+      <Col xs="12" sm="12" md="12" lg="6">
           <div className="text-div-container text-center">
             <h1 className="nameLine">My name is Joe Mulick</h1>
             <h2 className="nameLine-desc text-center">Full Stack Javascript Web Developer</h2> 
             <h2 className="nameLine-location text-center">Los Angeles California</h2>
           </div>
-
+      </Col>
+      <Col xs="12" sm="12" md="12" lg="6">
           <div className="me-photo-div">
             <img className="me-photo" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" />
           </div>
+      </Col>
 
-
-
-        </div> 
-
-      </div>
-
-    </Col>
-  </Row>
+</Row>
 
   <div className="img-row-container">
     <Row>
