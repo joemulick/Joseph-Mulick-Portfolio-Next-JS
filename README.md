@@ -20,3 +20,6 @@ Then you need to link the new custom URL to joemulick.com
 $ now alias https://now-custom-domain-that-you-just-created.now.sh/ joemulick.com
 
 
+______________________________
+
+
