@@ -2,12 +2,13 @@ TO EXPORT AND RUN IN DEVELOPMENT
 
 npm run build  
 
-npm start
+node server
 
 https://learnnextjs.com
 
 ______________________________
 
+TO UPDATE THE CURRENT DEPLOYED VERSION of joemulick.com
 
 https://zeit.co/now
 

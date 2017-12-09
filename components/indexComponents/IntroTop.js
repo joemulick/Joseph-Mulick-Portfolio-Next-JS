@@ -1,30 +1,21 @@
-import { Row, Col } from 'reactstrap'
+import { Row, Col, Media } from 'reactstrap'
 
 const IntroTop = (props) => (
 <div>
  <Row>
-    <Col>
-
-      <div className="intro-top-outer-container">
-
-        <div className="intro-textandphoto-container">
-
-          <div className="text-div-container text-center">
+    <Col xs="12" sm="12" md="12" lg={{ size: 5, offset: 1}}>
+          <div className="left-intro-div text-center">
             <h1 className="nameLine">My name is Joe Mulick</h1>
             <h2 className="nameLine-desc text-center">Full Stack Javascript Web Developer</h2> 
             <h2 className="nameLine-location text-center">Los Angeles California</h2>
           </div>
-
-          <div className="me-photo-div">
-            <img className="me-photo" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" />
-          </div>
-
-
-
-        </div> 
-
-      </div>
-
+    </Col>
+    <Col xs="12" sm="12" md="12" lg="6">
+        <Media>
+          <Media left middle style={{margin: "auto"}}>
+            <Media object style={{ maxHeight: "140px", borderRadius: "50%", margin: "auto"}}  src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" alt="Photo-Of-Joe-Mulick" />
+          </Media>
+        </Media>
     </Col>
   </Row>
 
@@ -44,32 +35,29 @@ const IntroTop = (props) => (
                         text-align: center;
                       }
                       .me-photo{
+                        display: block;
                         max-height: 140px;           
                         width: auto;
-                        margin-left: 20px;
                         border-radius: 50%;
-                      }
-                      .text-div-container{
-                        display: inline-block;
-                        flex: 0 0 65%;
-                      }
-                      .me-photo-div{
-                        display: inline-block;
-                        flex: 1;
-                      }
-                      .intro-textandphoto-container{
-                        display: flex;
                         margin: auto;
                       }
                       .img-row-container{
                         margin: 100px 0;
                       }
                       @media screen (max-width: 550px) {
-                        nameLine-location {
+                        .nameLine-location {
                           font-size: 0.5em !important;
                         }
-                        nameLine-desc{
+                        .nameLine-desc{
                           font-size: 0.5em!important;
+                        }
+                        .left-intro-div{
+                          margin: auto;
+                        }
+                      }
+                      @media screen (max-width: 991px) {
+                        .left-intro-div{
+                          margin-bottom: 50px;
                         }
                       }
                   `}</style>
